@@ -18,7 +18,7 @@ class Employee extends Person{
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 	}
 }
-const employee1 = Employee("Ajay", 28, "Developer")
+const employee1 = new Employee("Ajay", 28, "Developer")
 console.log(employee1.greet())
 
 // Do not change code below this line
